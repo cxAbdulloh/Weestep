@@ -1,0 +1,95 @@
+.contact-container {
+    display: flex;
+}
+.contactLeft {
+    flex: 1;
+}
+.contactText {
+    color: #FF7C2A;
+    font-size: 4rem;
+    padding: 1rem 3rem;
+}
+.contact-description {
+    max-width: 50%;
+}
+.contact-email {
+    color: #FF7C2A;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.contactRight {
+    flex: 1;
+    margin-left: 5rem;
+}
+.contact-text {
+    padding: 2.7rem 0;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+}
+.form-container {
+    margin-top: 70px;
+}
+input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #F3F1F2;
+    width: 60%;
+}
+.contactButton {
+    margin-top: 30px;
+    background-color: #FF7C2A;
+    color: #fff;
+    width: 60%;
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.share {
+    margin-top: 2rem;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.iconImages {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+@media (max-width: 850px) {
+    .contact-container {
+        flex-direction: column;
+        margin-left: -50px;
+    }
+    .contactText {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 950px) {
+    .contact-container {
+        margin-top: 80px;
+    }
+}
+@media (max-width: 568px) {
+    .contactText {
+        font-size: 2.7rem;
+    }
+    .contact-description {
+        font-size: 14px;
+    }
+    h3, .contact-text {
+        font-size: 16px;
+    }
+    input {
+        width: 90%;
+    }
+    .contactButton {
+        width: 90%;
+    }
+}

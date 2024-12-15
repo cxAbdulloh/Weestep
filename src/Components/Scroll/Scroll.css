@@ -1,0 +1,25 @@
+.scroll-container {
+    margin-top: 80px;
+}
+.scroll-text {
+    text-align: center;
+    margin-bottom: 25px;
+}
+marquee {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 125%;
+}
+.scroll-btn {
+  background-color: #FF7C2A;
+  border-radius: 2rem;
+  border: none;
+  color: #fff;
+  padding: 0.9rem 5rem;
+  cursor: pointer;
+}
+.end {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
